@@ -126,7 +126,7 @@ commands:
             exit 0
 executors:
   golang:
-    resource_class: xlarge
+    resource_class: large
     docker:
       - image: "cimg/go:<< pipeline.parameters.go_version >>"
     environment:
